@@ -1,12 +1,13 @@
 import React from "react";
 
 const Card = (props) => {
-  console.log(props);
+  //   console.log(props);
   const { authorName, blogTitle, image, authorImg, readTime, publishDate } =
     props.singleData;
+  const markAsRead = props.markAsRead;
   return (
-    <div className="card shadow-lg mx-4 p-6">
-      <img className="w-full h-64 rounded-lg my-4" src={image} alt="" />
+    <div className="card shadow-lg mx-4 p-6 rounded-none my-2">
+      <img className="w-full h-64 rounded-lg my-lg4" src={image} alt="" />
       <div className="flex justify-between items-center my-3">
         <div className="flex gap-4">
           <div>
@@ -46,7 +47,12 @@ const Card = (props) => {
       <div className="my-4">
         <h1 className="text-2xl font-semibold">{blogTitle}</h1>
         <br />
-        <button className="underline text-violet-600">Mark as read</button>
+        <button
+          onClick={() => markAsRead(readTime)}
+          className="underline text-violet-600"
+        >
+          Mark as read
+        </button>
       </div>
     </div>
   );
