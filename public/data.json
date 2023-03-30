@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "authorName": "Raymund",
+    "blogTitle": "What Is Chat GPT? – what is it used for?",
+    "image": "./images/chatgpt.jpeg",
+    "authorImg": "./images/chatgpt-author.jpg",
+    "readTime": "5",
+    "publishDate": "3/15/2023"
+  },
+  {
+    "id": 2,
+    "authorName": "Obie",
+    "blogTitle": "What is React.js? (Uses, Examples, & More)",
+    "image": "./images/react.jpg",
+    "authorImg": "./images/react-author.png",
+    "readTime": "8",
+    "publishDate": "4/23/2022"
+  },
+  {
+    "id": 3,
+    "authorName": "Isadora",
+    "blogTitle": "Flutter vs Dart - Which is better?",
+    "image": "./images/dart-flatter.jpg",
+    "authorImg": "./images/dart-flatter author.jpg",
+    "readTime": "10",
+    "publishDate": "6/19/2022"
+  },
+  {
+    "id": 4,
+    "authorName": "Elonore",
+    "blogTitle": "What is JavaScript, and why is it important?",
+    "image": "./images/js.jpg",
+    "authorImg": "./images/js author.jpg",
+    "readTime": "12",
+    "publishDate": "7/4/2022"
+  }
+]
