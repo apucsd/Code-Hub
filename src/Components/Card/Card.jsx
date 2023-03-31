@@ -11,10 +11,10 @@ const Card = (props) => {
       <img className="w-full h-64 rounded-lg my-lg4" src={image} alt="" />
       <div className="flex justify-between items-center my-3">
         <div className="flex gap-4">
-          <div>
+          <div className="">
             {/* author img div */}
             <img
-              className="w-[45px] h-[45px] rounded-full"
+              className="w-[45px] h-[45px] rounded-full border-2"
               src={authorImg}
               alt=""
             />
