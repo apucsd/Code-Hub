@@ -5,6 +5,7 @@ const Card = (props) => {
   const { authorName, blogTitle, image, authorImg, readTime, publishDate } =
     props.singleData;
   const markAsRead = props.markAsRead;
+  const handleBookMark = props.handleBookMark;
   return (
     <div className="card shadow-lg mx-4 p-6 rounded-none my-2">
       <img className="w-full h-64 rounded-lg my-lg4" src={image} alt="" />
@@ -26,7 +27,10 @@ const Card = (props) => {
 
         <div className="flex gap-2">
           <p className="text-slate-500">{readTime} min read</p>
-          <div className="cursor-pointer">
+          <div
+            onClick={() => handleBookMark(blogTitle)}
+            className="cursor-pointer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
