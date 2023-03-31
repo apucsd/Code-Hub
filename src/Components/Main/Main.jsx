@@ -47,7 +47,7 @@ const Main = () => {
   };
   return (
     <div className="grid lg:grid-cols-3 gap-4 my-10">
-      <div className="col-span-2">
+      <div className="lg:col-span-2">
         <div className="">
           {data.map((singleData) => (
             <Card
@@ -59,7 +59,7 @@ const Main = () => {
           ))}
         </div>
       </div>
-      <div className=" ">
+      <div className="">
         <SideCart handleTitle={handleTitle} spendTime={spendTime}></SideCart>
       </div>
       <ToastContainer />

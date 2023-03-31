@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const SideCart = ({ spendTime, handleTitle }) => {
-  const [totalReadTime, setTotalReadTime] = useState("");
+  const [totalReadTime, setTotalReadTime] = useState(0);
   const [totalBlogTitle, setTotalBlogTitle] = useState([]);
 
   useEffect(() => {

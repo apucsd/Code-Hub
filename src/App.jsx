@@ -4,7 +4,7 @@ import Main from "./Components/Main/Main";
 
 function App() {
   return (
-    <div className="App mx-10">
+    <div className="App lg:mx-10">
       <Header></Header>
       <Main></Main>
     </div>

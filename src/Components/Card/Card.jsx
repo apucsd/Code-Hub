@@ -7,7 +7,7 @@ const Card = (props) => {
   const markAsRead = props.markAsRead;
   const handleBookMark = props.handleBookMark;
   return (
-    <div className="card shadow-lg mx-4 p-6 rounded-none my-2">
+    <div className="card shadow-lg lg:mx-4 p-6 rounded-none my-2">
       <img className="w-full h-64 rounded-lg my-lg4" src={image} alt="" />
       <div className="flex justify-between items-center my-3">
         <div className="flex gap-4">
