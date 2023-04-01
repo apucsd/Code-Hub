@@ -50,8 +50,9 @@ const QuestionAns = () => {
         <div className="collapse-content">
           <p>
             The purpose of useEffect other than fetching data is to handle side
-            effects in functional components.By using this function we re-render
-            a components
+            effects in functional components.By using this function we can
+            re-render a components, manipulate DOM manually ,use timer function
+            etc.
           </p>
         </div>
       </div>
